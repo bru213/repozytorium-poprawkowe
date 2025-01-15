@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5dc">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gra w kości. Autor: Bohdan Masnyi"
+        android:textSize="22sp"
+        android:background="#a52a2a"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/tossBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Rzuć kościami"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:background="#d2691e"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/numTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:layout_weight="5"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=" ? "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:layout_weight="5"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=" ? "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numTV3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:layout_weight="5"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=" ? "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numTV4"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:layout_weight="5"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=" ? "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numTV5"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:layout_weight="5"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=" ? "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/thisResultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania: 0"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/gameResultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: 0"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/numToss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liczba rzutów: 0"
+        android:textSize="14sp"
+        android:layout_gravity="left"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/resetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Resetuj wynik"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:background="#d2691e"
+        />
+
+</LinearLayout>
